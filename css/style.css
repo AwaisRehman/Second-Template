@@ -1,0 +1,81 @@
+/* General Website Style rules */
+body {
+    font-family: "Helvetica", Sans-Serif;
+    background-color: aliceblue;
+  }
+
+  #header-container {
+      display: flex;
+    
+      align-content: center;
+      justify-content: center;
+  }
+  #header-container div{
+     
+      align-items: center;
+      margin: 20px;
+      width: 100%;
+      padding: 10px;
+  }
+  #header-container .logo {
+    position: relative;
+    right: 120px;
+    top: 1px;
+  }
+
+  #header-container .box {
+   position: relative;
+   width: 900px;
+   height: 100px;
+   align-items: center;
+   background-color: whitesmoke;
+   border-radius: 40px;
+   padding: 20px;
+   right: 15px;
+   top:4em;
+   box-shadow: -10px 10px 5px rgba(0,0,0,0.3);
+   margin: 20px;
+  }
+
+  body .box1 {
+  position: relative;
+  width: 400px;
+  height: 20px;
+  align-items: center;
+  right: 540px;
+  top: 1em;
+  background-color: white;
+  padding: 5px;
+  margin: 10px;
+   
+  }
+
+  body .date {
+    position: relative;
+    width: 200px;
+    height: 20px;
+    align-items: center;
+    right: 570px;
+    top: 8em;
+    background-color: white;
+    padding: 5px;
+    margin: 10px;
+     
+    }
+
+    .table-container{
+    position: relative;
+    align-items: right;
+    right: 10px;
+    top: 8em;
+    background-color: white;
+    padding: 10px;
+    margin: 10px;
+    }
+
+    table, th, td {
+      text-align: center;
+     border: 1px solid black;
+     border-collapse: collapse;
+    
+    }
